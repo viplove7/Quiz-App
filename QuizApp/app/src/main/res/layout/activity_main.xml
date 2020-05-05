@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="#B2EBF2">
+    <TextView
+        style="@style/text"
+        android:text="1. Which crop is sown on the largest area in India?" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <RadioGroup
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            style="@style/group"
+            android:id="@+id/r1"
+            android:onClick="rice">
+            <RadioButton
+                style="@style/radio"
+                android:text="Rice"
+               />
+        <RadioButton
+            style="@style/radio"
+            android:text="Wheat"
+            />
+        <RadioButton
+            style="@style/radio"
+            android:text="Sugarcane"
+         />
+        <RadioButton
+            style="@style/radio"
+            android:text="Maze"
+          />
+        </RadioGroup>
+    </LinearLayout>
+    <TextView
+        style="@style/text"
+        android:text="2. The world smallest country is?" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <RadioGroup
+            android:id="@+id/r2"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            style="@style/group"
+            android:onClick="vatican">
+        <RadioButton
+            style="@style/radio"
+            android:text="Canada"
+        />
+        <RadioButton
+            style="@style/radio"
+            android:text="Russia"
+           />
+        <RadioButton
+            style="@style/radio"
+            android:text="Maldives"
+           />
+        <RadioButton
+            style="@style/radio"
+            android:text="Vatican City"
+            />
+        </RadioGroup>
+    </LinearLayout>
+    <TextView
+        style="@style/text"
+        android:text="3.  The currency notes are printed in" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <RadioGroup
+            android:id="@+id/r3"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            style="@style/group"
+            android:onClick="nasik"
+            >
+        <RadioButton
+            style="@style/radio"
+            android:text="New Delhi"
+            />
+        <RadioButton
+            style="@style/radio"
+            android:text="Nasik"
+            />
+        <RadioButton
+            style="@style/radio"
+            android:text="Nagpur"
+           />
+        <RadioButton
+            style="@style/radio"
+            android:text="Bombay"
+           />
+        </RadioGroup>
+    </LinearLayout>
+    <TextView
+        style="@style/text"
+        android:text="4. What is the world's most common religion?" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <RadioGroup
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/r4"
+            style="@style/group"
+            android:onClick="chris"
+           >
+        <RadioButton
+            style="@style/radio"
+            android:text="Hinduism"
+           />
+        <RadioButton
+            style="@style/radio"
+            android:text="Christianity"
+           />
+        <RadioButton
+            style="@style/radio"
+            android:text="Buddhism"
+         />
+        <RadioButton
+            style="@style/radio"
+            android:text="Muslim"
+           />
+        </RadioGroup>
+    </LinearLayout>
+    <TextView
+        style="@style/text"
+        android:text="5. Durand Cup is associated with the game of" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <RadioGroup
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            style="@style/group"
+            android:id="@+id/r5"
+            android:onClick="foot"
+           >
+        <RadioButton
+            style="@style/radio"
+            android:text="Cricket"
+
+            />
+        <RadioButton
+            style="@style/radio"
+            android:text="Football"
+          />
+        <RadioButton
+            style="@style/radio"
+            android:text="Hockey"
+          />
+        <RadioButton
+            style="@style/radio"
+            android:text="Volleyball"
+           />
+        </RadioGroup>
+    </LinearLayout>
+    <TextView
+        style="@style/text"
+        android:text="6. In 2009 Indian Premier League who got the title of Player of the series?" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <RadioGroup
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            style="@style/group"
+            android:id="@+id/r6"
+            android:onClick="ada">
+        <RadioButton
+            style="@style/radio"
+            android:text="Adam Gilchrist"
+            android:id="@+id/adam"
+            />
+        <RadioButton
+            style="@style/radio"
+            android:text="Sachin Tendulkar"
+          />
+        <RadioButton
+            style="@style/radio"
+            android:text="Robin Uthappa"
+           />
+        <RadioButton
+            style="@style/radio"
+            android:text="Shane Watson"
+           />
+        </RadioGroup>
+    </LinearLayout>
+    <TextView
+        style="@style/text"
+        android:text="7. Which team won the 2014 Indian Premier League tournament?" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+       >
+        <RadioGroup
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            style="@style/group"
+            android:onClick="kkr"
+            android:id="@+id/r7">
+        <RadioButton
+            style="@style/radio"
+            android:text="Kolkata Knight Riders"
+           />
+        <RadioButton
+            style="@style/radio"
+            android:text="Chennai Super Kings"
+          />
+        <RadioButton
+            style="@style/radio"
+            android:text="Deccan Chargers"
+         />
+        <RadioButton
+            style="@style/radio"
+            android:text="Royal Challengers Bangalore"
+           />
+        </RadioGroup>
+    </LinearLayout>
+    <TextView
+        style="@style/text"
+        android:text="8. What is the currency of Nepal? " />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <RadioGroup
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            style="@style/group"
+            android:id="@+id/r8"
+            android:onClick="rup">
+        <RadioButton
+            style="@style/radio"
+            android:text="Rupee"
+         />
+        <RadioButton
+            style="@style/radio"
+            android:text="Nepalese Rupee"
+           />
+        <RadioButton
+            style="@style/radio"
+            android:text="Rupiah"
+            />
+        <RadioButton
+            style="@style/radio"
+            android:text="Taka"
+          />
+        </RadioGroup>
+    </LinearLayout>
+    <TextView
+        style="@style/text"
+        android:text="9. Which of the following integers are multiples of both 2 and 3?"/>
+    <CheckBox
+        style="@style/radio"
+        android:text="8"
+        android:id="@+id/check1"/>
+    <CheckBox
+        style="@style/radio"
+        android:text="12"
+        android:id="@+id/check2"/>
+    <CheckBox
+        style="@style/radio"
+        android:text="18"
+        android:id="@+id/check3"/>
+    <CheckBox
+        style="@style/radio"
+        android:text="36"
+        android:id="@+id/check4"/>
+
+    <TextView
+        style="@style/text"
+        android:text="10. Who is know as Father Of Nation iin India" />
+    <EditText
+        style="@style/text"
+        android:id="@+id/edit"/>
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:id="@+id/text"
+    style="@style/text"
+    android:layout_gravity="center"
+    android:layout_marginBottom="8dp"
+    android:layout_marginTop="24dp"
+    />
+<Button
+    android:layout_width="150dp"
+    android:layout_height="wrap_content"
+    android:text="Submit"
+    android:layout_marginTop="16dp"
+    android:layout_marginBottom="16dp"
+    android:layout_gravity="center"
+    android:id="@+id/sub"
+    android:onClick="answer"/>
+
+
+</LinearLayout>
+</ScrollView>
